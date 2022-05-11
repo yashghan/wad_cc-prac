@@ -1,0 +1,30 @@
+Cc - cloudsim Prac - 3
+
+Step - 1: Check if java and javac are installed on the system
+sudo apt update
+java -version  ->(if not installed then: sudo apt install default-jre )
+sudo apt install default-jdk
+java -version
+javac -version
+
+Step - 2:
+Install eclipse: 
+https://www.eclipse.org/downloads/
+
+Step - 3:
+Install cloudsim from https://github.com/Cloudslab/cloudsim/releases/tag/cloudsim-3.0.3
+
+Step - 4:
+Clone this file https://github.com/michaelfahmy/cloudsim-task-scheduling
+
+Step 5:
+Open eclipse: Create new java project eg-CloudSimSimulation
+Under new project right click on src file and create new package com.sjfs
+copy files from sjf from github repo in step - 4 and also all files from utils under the com.sjfs package
+Write package names in each of the files
+
+Step-6:
+Right click on CloudSimSimulation then choose build path -> configure buildpath -> libraries -> classpath -> add External jars ->open cloudsim-3.0.3 jar file -> apply changes
+Open sjf_Scheduler.java program, remove util lines -> right click on program -> run as -> java application
+
+Similarly do for all other scheduiling algorithms
