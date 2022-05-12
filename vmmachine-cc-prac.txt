@@ -1,0 +1,9 @@
+ifconfig ->(check inet addr)
+
+scp <name of comp where you want to communicate)@<inet addr of comp where you want to communicate>:~/<filename> ~/
+ls
+
+
+For different vmmachine
+touch yash.txt
+sudo apt install openssh-server
